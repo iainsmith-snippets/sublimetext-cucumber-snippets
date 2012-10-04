@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+Feature: ${1:Feature name}
+  In order to ${2:(describe main purpose)}
+  As a ${3:Customer} I should be able to ${4:(describe feature acceptance)}
+  
+  $0
+]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fea</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.gherkin</scope>
+</snippet>

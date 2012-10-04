@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+Scenario: ${1:Scenario name}
+  Given ${2:(I go to (pagename))}
+  When ${3:I fill in "xx" with "yy"}
+  Then ${4:I should see "yy" within "aa"}
+  
+  $0
+]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sce</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.gherkin</scope>
+</snippet>
